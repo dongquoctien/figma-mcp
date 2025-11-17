@@ -1,0 +1,25 @@
+{
+  "name": "figma-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy server for Figma MCP to enable shared access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "figma",
+    "proxy",
+    "reverse-proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
+
